@@ -3,10 +3,10 @@ mysqlpiwigo:
    volumes:
       - /home/piwigo/mysql/:/var/lib/mysql
    environment:
-      - MYSQL_ROOT_PASSWORD=MYROOTPASSWORD
+      - MYSQL_ROOT_PASSWORD=s3858809
       - MYSQL_DATABASE=piwigo
       - MYSQL_USER=piwigo
-      - MYSQL_PASSWORD=MYUSERPASSWORD
+      - MYSQL_PASSWORD=s3858809
 piwigo:
    image: mathieuruellan/piwigo
    links:
@@ -23,4 +23,4 @@ piwigo:
    ports:
       - "MYPORT:80"
    hostname: piwigo
-   domainname: MYDOMAIN.COM
+   domainname: 373962809.xyz
